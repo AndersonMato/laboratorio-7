@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f92152eb-b2f4-41e5-ae84-70f12b884dd6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>laboratorio_7.py</StartupFile>
+    <StartupFile>figuras.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="figuras.py" />
+    <Compile Include="figuras_solid.py" />
+    <Compile Include="figura_nueva.py" />
     <Compile Include="laboratorio_7.py" />
+    <Compile Include="primo.py" />
+    <Compile Include="test_primo.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
